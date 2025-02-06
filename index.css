@@ -1,4 +1,4 @@
-w body {
+body {
   font-family: Arial, sans-serif;
   margin: 0;
   background-color: #ffffff;
@@ -38,12 +38,29 @@ header button:hover {
   gap: 15px;
   padding: 20px;
 }
-movie-card {
-  background-color: #fff;
-  border-radius: 4px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+.movie-card {
+  width: 200px;
+  background-color: #222;
+  color: white;
+  padding: 10px;
   text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(95, 84, 84, 0.2);
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.movie-card h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
+
+.movie-card p {
+  font-size: 14px;
+  color: #ffcc00;
 }
 
 .movie-card img {
