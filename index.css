@@ -32,6 +32,10 @@ header button {
 header button:hover {
   background-color: #58595ad5;
 }
+
+.displayMovies {
+  padding: 30px 0;
+}
 .movies-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -45,7 +49,7 @@ header button:hover {
   padding: 10px;
   text-align: center;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(95, 84, 84, 0.2);
+  box-shadow: 10px 4px 8px #BBBBBB;
 }
 
 .movie-card img {
